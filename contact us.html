@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-Gbali foundation inc.</title>
+    <link rel="stylesheet" href="contact us.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="WhatsApp Image 2024-01-11 at 11.24.09_a89dbe13.jpg" alt="logo" id="logo-icon">
+            <h1>GBALI FOUNDATION INC.</h1>
+        </div>
+        <img src="icon-menu.svg" alt="" class="nav-toggle" id="nav__toggle">
+        <!---===NAVBAR===--->
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                 <!---===NAV-MENU===--->
+                 <div class="nav-menu">
+                    <a href="#" class="nav__close" id="nav-close">
+                        <img src="icon-close.svg" alt="">
+                    </a>
+                    <div class="nav-menu1">
+                        <ul class="nav-menu-list">
+                            <li class="nav-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="our project.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact us.html">Contact Us</a>
+                            </li>
+                            <button class="nav-item button">
+                                Donate
+                            </button>                      
+                            </ul>
+                    </div>  
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="flex-item-1">
+            <h1 class="contact">
+                Contact Us
+            </h1>
+            <h2 class="subtitle1">Are Lookin For A Specific <br>
+                Person Or Information<br>
+                About a Program?</h2>
+            <p class="subtitle2">visit Our Staff Directory to find and contact <br>
+                the Gbali foundation team member for needs
+            </p>
+            <p class="subtitle3">
+                For inquries please contact us here:
+            </p>
+            <form onsubmit="emailSend(); reset(); return false">
+                <input type="text" id="name" placeholder="Name" name="name" reqiured>
+                <input type="email" id="email" placeholder="Email" name="email" required>
+                <input type="text" id="Message" placeholder="Your Message" name="message" required>
+                <button type="submit" class="send">
+                    SEND
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="group"> 
+                <div class="footer-list">
+                    <ul class="footer-list1">
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="group2">
+                    <img src="WhatsApp_Image_2024-01-11_at_11.24.09_a89dbe13-removebg-preview.png" alt="" class="icon">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="wrapper">
+        <div class="loader"></div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbF9tMFZOdi1JQUZzQ0sxTzNWeGl0RGxhdlYyQXxBQ3Jtc0tuNFZrdTdOSktnbEpyQVdXQmRsWl83RmxBWWlVUnlZUDUxa1R4a2IxbGkyaTJMdnNXUDVHWWxPQ2RHVFQtNmZpeVVSOUw0MFFKQWxUNjdVeDJMc1I2UlNOYXQ2QVZlMnRKTWpvSjYtbnRKNERiUmlmdw&q=http%3A%2F%2Fcode.jquery.com%2Fjquery-1.11.3.min.js&v=FDh7Mdl2oww"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

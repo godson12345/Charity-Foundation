@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="WhatsApp Image 2024-01-11 at 11.24.09_a89dbe13.jpg" alt="logo" id="logo-icon">
+            <h1>GBALI FOUNDATION INC.</h1>
+        </div>
+        <img src="icon-menu.svg" alt="" class="nav-toggle" id="nav__toggle">
+        <!---===NAVBAR===--->
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                 <!---===NAV-MENU===--->
+                 <div class="nav-menu">
+                    <a href="#" class="nav__close" id="nav-close">
+                        <img src="icon-close.svg" alt="">
+                    </a>
+                    <div class="nav-menu1">
+                        <ul class="nav-menu-list">
+                            <li class="nav-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="our project.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact us.html">Contact Us</a>
+                            </li>
+                            <button class="nav-item button">
+                                Donate
+                            </button>                      
+                            </ul>
+                    </div>  
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Donate Now</h2>
+        <form id="donationForm">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+          </div>
+          <button type="submit">Donate</button>
+        </form>
+      </div>
+      <script src="donate.js"></script>
+</body>
+</html>
